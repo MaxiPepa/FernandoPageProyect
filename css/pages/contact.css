@@ -1,0 +1,17 @@
+.helpContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.help {
+    display: flex;
+    flex-direction: column;
+}
+
+div.submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
