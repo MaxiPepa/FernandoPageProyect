@@ -48,7 +48,7 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Impact, "sans-serif";
     font-size: 1.2rem;
 }
@@ -57,7 +57,7 @@ header {
     content: "";
     height: 3px;
     width: 0%;
-    background: yellowgreen;
+    background: red;
     position: absolute;
     left: 0;
     bottom: -12px;
@@ -73,13 +73,23 @@ header {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.281);
+    box-shadow: 10px 5px 20px rgba(29, 29, 29, 0.733);
     border-radius: 20px;
     margin: 5%;
     padding: 25px;
 }
 
-.main-container>h1,p {
+h1,p,ul {
     color: white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    border-bottom: 1px solid white;
+}
+
+li {
+    margin-left: 15px;
 }
 
 
