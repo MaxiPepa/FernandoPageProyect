@@ -45,15 +45,15 @@ header {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    padding-top: 10px;
     position: relative;
-
 }
 
 .navbar ul li a {
     text-decoration: none;
     color: white;
     font-family: Impact, "sans-serif";
-    font-size: 1.2rem;
+    font-size: 30px;
 }
 
 .navbar ul li::before {
@@ -82,7 +82,9 @@ header {
     padding: 25px;
 }
 
-h1,p,ul {
+h1,
+p,
+ul {
     color: white;
     margin-bottom: 15px;
 }
@@ -107,6 +109,11 @@ footer {
     .navbar {
         flex-direction: column;
     }
+
+    .navbar ul li a {
+        font-size: 25px;
+    }
+
     .logo {
         width: 200px;
     }
