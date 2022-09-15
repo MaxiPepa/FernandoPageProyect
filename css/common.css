@@ -5,7 +5,10 @@
 
 body {
     margin: 0;
-    background-color: beige;
+    background-image: url("../img/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -14,10 +17,7 @@ body {
 header {
     width: 100%;
     height: 10%;
-    background-image: linear-gradient(rgba(29, 42, 153, 0.8), rgba(26, 27, 109, 0.8));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(#e29b15, #FFEB00);
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-    width: 130px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -46,8 +46,8 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
-    font-family: Roboto, "sans-serif";
+    color: black;
+    font-family: Impact, "sans-serif";
     font-size: 1.2rem;
 }
 
@@ -67,8 +67,14 @@ header {
 }
 
 footer {
-    background-color: coral;
+    background-image: linear-gradient(#FFEB00, #e29b15);
     padding: 50px 0;
     text-align: center;
     margin-top: auto;
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+    }
 }
