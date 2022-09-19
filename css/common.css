@@ -99,10 +99,17 @@ li {
 
 /* Footer */
 footer {
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(#FFEB00, #e29b15);
     padding: 50px 0;
     text-align: center;
     margin-top: auto;
+}
+
+.instagram-icon {
+    height: 25px;
+    width: 25px;
 }
 
 @media only screen and (max-width: 650px) {
