@@ -7,6 +7,7 @@
   <title>Fernando Nemer Oficios</title>
   <link rel="icon" href="./img/icon.png">
   <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/contact.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <script src="./js/common.js" defer></script>
@@ -32,11 +33,20 @@
 
   <div class="main-container">
     <div>
-      <h1>Sobre mi</h1>
-      <p>Soy Fernando Nemer, y mi actividad principal son los oficios, especializado en electricidad, plomería e
-        instalación de aires acondicionados.
-        Hago instalaciones en casas, oficinas o locales.</p>
+      <h1>Contacto</h1>
+      <p>Con el siguiente formulario podrás enviarme un mail sobre tu consulta o propuesta de trabajo.</p>
     </div>
+
+    <form id="email-form" class="email-form" action="#">
+        <label for="subject">Asunto:</label>
+        <input type="text" placeholder="Asunto">
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="nombre@ejemplo.com">
+
+        <label for="textbox">Mensaje:</label>
+        <textarea placeholder="Mensaje"></textarea>
+    </form>
 
   </div>
 
