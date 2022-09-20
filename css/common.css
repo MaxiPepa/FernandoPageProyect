@@ -97,6 +97,18 @@ li {
     margin-left: 15px;
 }
 
+div.carousel-item > img {
+    height: auto;
+    width: auto;
+}
+
+.carousel-container {
+    margin: 2%;
+    align-self: center;
+    border: 10px solid rgba(29, 29, 29, 0.493);
+    border-radius: 10px
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -114,7 +126,11 @@ footer {
     align-items: flex-start;
 }
 
-.instagram-icon, .facebook-icon, .email-icon, .whatsapp-icon, .social-media-link {
+.instagram-icon,
+.facebook-icon,
+.email-icon,
+.whatsapp-icon,
+.social-media-link {
     color: white;
     margin: 5px;
     text-decoration: none;
@@ -124,7 +140,7 @@ footer {
     display: flex;
 }
 
-.social-media-item :hover{
+.social-media-item :hover {
     background-color: #e29a15cb;
     border-radius: 10px;
 }
