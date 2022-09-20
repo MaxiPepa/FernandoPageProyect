@@ -104,12 +104,29 @@ footer {
     background-image: linear-gradient(#FFEB00, #e29b15);
     padding: 50px 0;
     text-align: center;
+    align-items: center;
     margin-top: auto;
 }
 
-.instagram-icon {
-    height: 25px;
-    width: 25px;
+.social-media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.instagram-icon, .facebook-icon, .email-icon, .whatsapp-icon, .social-media-link {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.social-media-item {
+    display: flex;
+}
+
+.social-media-item :hover{
+    background-color: #e29a15cb;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 650px) {
