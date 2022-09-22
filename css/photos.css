@@ -1,0 +1,10 @@
+.photo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-container>img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}
