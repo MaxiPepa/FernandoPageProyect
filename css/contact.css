@@ -3,3 +3,25 @@
     flex-direction: column;
     color: white;
 }
+
+.form-container {
+    align-self: center;
+    width: 70%;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.send-form {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    align-self: flex-start;
+}
+
+.send-form :hover {
+    background-color: gray;
+    padding: 50px;
+}
