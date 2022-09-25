@@ -61,7 +61,7 @@ header {
     content: "";
     height: 3px;
     width: 0%;
-    background: red;
+    background: rgb(221, 56, 56);
     position: absolute;
     left: 0;
     bottom: -12px;
@@ -110,6 +110,28 @@ div.carousel-item > img {
     border-radius: 10px
 }
 
+/* WhatsApp Bubble */
+.whatsapp-bubble-button {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    bottom: 15px;
+    right: 15px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.whatsapp-bubble-button:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: white;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -141,9 +163,14 @@ footer {
     display: flex;
 }
 
-.social-media-item :hover {
+.social-media-item:hover {
     background-color: #e29a15cb;
     border-radius: 10px;
+}
+
+.social-media-link:hover {
+    color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 650px) {
