@@ -1,10 +1,19 @@
 .photo-container {
     display: flex;
     flex-direction: column;
+    margin: 2%;
 }
 
 .photo-container>img {
     max-width: 100%;
     height: auto;
+    margin: 15px;
+    border: 10px solid rgba(29, 29, 29, 0.493);
+    border-radius: 10px
+}
+
+.photo-container>h3 {
+    color: white;
+    border-bottom: 1px solid white;
     margin: 15px;
 }
