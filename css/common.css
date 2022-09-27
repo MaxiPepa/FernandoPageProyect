@@ -109,6 +109,11 @@ div.carousel-item > img {
     border-radius: 10px
 }
 
+.carousel-caption {
+    background-color: rgba(29, 29, 29, 0.24);
+    border-radius: 20px;
+}
+
 /* WhatsApp Bubble */
 .whatsapp-bubble-button {
     position: fixed;
