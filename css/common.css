@@ -190,3 +190,23 @@ footer {
         width: 250px;
     }
 }
+
+@media only screen and (max-width: 460px) {
+    .navbar ul li a {
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .navbar ul li a {
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
